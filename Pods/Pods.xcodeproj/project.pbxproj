@@ -1,0 +1,1105 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 9156D935D0F1F5478136A4933EF550C9 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0722B6BB447159EB41C774D6EA9B1C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2109335F7152C136BA97231CA66C50 /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10467BF88C7DA033954B7CC598CA3B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C084897A8B159EB55C94B2557702B567 /* UINavigationBar+TCCustomFont.m */; };
+		1830F80D3045BA13A83CE76DB573D38E /* Pods-FlipprTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A117687B9B173BDB4DB85B236699EB89 /* Pods-FlipprTests-dummy.m */; };
+		1A1CB2FB182E2953858747ED63E13140 /* Pods-Flippr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 113406BEEF96867376756F4F3FC0D901 /* Pods-Flippr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0086E9DD11B41EFF5D004B02298B6D /* UITextField+PlaceholderColor.m */; };
+		218D192A25089E6AE8C1A6CD2E6723A0 /* Pods-FlipprUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C7D67C88BAA64A713560661CC0EFEA /* Pods-FlipprUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F2CE7A97EE48D297AE373F9761F488 /* Pods-FlipprTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A05B2254172FC25A90FB0800DF8A1B /* Pods-FlipprTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D69367D56B256C500C20F4623001C01B /* CSAnimationView.m */; };
+		3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D2C916110D2187D60D031955D17CB /* UITextView+TCCustomFont.m */; };
+		46D1CA6F2EEE2892FEEEFC7469E69A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		47DA79AAAB8068F0D02DCBE1034B36EB /* TOMSMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EED46094A70C213785D50362FDEE /* TOMSMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = D96B72C9CAEE92E45C3223AB014AA082 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 60722EAA28C0F1B179E02AF7A29D327C /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586124C098D1F928D4AEAC4F1CA0F373 /* Pods-Flippr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C068957F8FB3C31EC1C4FCE1109B156E /* Pods-Flippr-dummy.m */; };
+		5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D75E8660202253487D68C3A65B5D2F /* UIButton+TCCustomFont.m */; };
+		6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EFDE39BFCD3A075A7504A24363423D /* CSNavigationController.m */; };
+		6B35D18A5D3837AAA7322D6F85CC8026 /* NSString+Morphing.m in Sources */ = {isa = PBXBuildFile; fileRef = 801B2B802C7746E4EB74716573C9615C /* NSString+Morphing.m */; };
+		722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DF7F1E885B4D0AF816DCBA99093044 /* UITextField+TCCustomFont.m */; };
+		7E47F086F2EE3087582E4B945D66D1DD /* NSString+Morphing.h in Headers */ = {isa = PBXBuildFile; fileRef = 3063FF75ECFA8DB09BA8FF812CE125B3 /* NSString+Morphing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B8DB740FF7F18E0C6450771E75865680 /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7D485B6E442D75FEE643E273937021 /* TOMSMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1445014388392188AA352AEEEC8C8A05 /* TOMSMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C1D779FDCD10171860EEBAC28B29E1 /* Pods-FlipprUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E660EF2B745AC7C0ED8B23BB7AB07C /* Pods-FlipprUITests-dummy.m */; };
+		AD4ADAB7D3961BB881E16BE6F548D169 /* TOMSMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2096853FCDE406F252D0C9C81D716FA9 /* TOMSMorphingLabel-dummy.m */; };
+		B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2DA8464B3397CC81181C76792B1E14 /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88033EE9B01C200DD9459B54630E3300 /* CSBlurView.m */; };
+		B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 136BD733F9D7CFF8B8E05C4AB3EBDC91 /* Canvas-dummy.m */; };
+		B8177C9C855257D6F67D3FD2FA4CBB6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		B8F8E671511029C9BAEE6DF4FBCCCA21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CB54865D0F2936C23858C54168D950 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77A1D2705B2054544375027A1A49D7 /* UILabel+TCCustomFont.m */; };
+		CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26215555FFA24BA92605516DF79030F7 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 805E47FB6D28AFE70BF036C761FE0C77 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A3A8E97555808A2A3749BA631F9437 /* CSAnimation.m */; };
+		DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 2846A9C57804971B8EE326D0F1639A14 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = A05CC90E8CF236655C5037E357A15369 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A81DDC8A94A7191D96CD764494596D /* TOMSMorphingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B6048318E12FB3CC84A5DDE2C0429 /* TOMSMorphingLabel.m */; };
+		F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3E64887507298DB813E1799577A35A /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BFB0664DCF76FD9C295F8C4110528C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6497E6E7D485D7D0D7E0CD8E84BFCD4;
+			remoteInfo = Canvas;
+		};
+		A330A7D6EA6919687ACF5ED962B823A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58160C26B17AE9FF8BC0C5CF6B88D491;
+			remoteInfo = TOMSMorphingLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0025310F177527FA0AFD3A219B16310C /* Pods-FlipprTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlipprTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0721CAD47031FFFF54059F070E775E6C /* Pods-FlipprTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlipprTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C88ABF01F9E26EB43E32AE9D00E5120 /* TOMSMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TOMSMorphingLabel.modulemap; sourceTree = "<group>"; };
+		113406BEEF96867376756F4F3FC0D901 /* Pods-Flippr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flippr-umbrella.h"; sourceTree = "<group>"; };
+		136BD733F9D7CFF8B8E05C4AB3EBDC91 /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		1445014388392188AA352AEEEC8C8A05 /* TOMSMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOMSMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		1656AC642EED3283EC12690E09D535CD /* Pods-FlipprUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlipprUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1948C63387B8CA2CAE278B4438D59C3E /* Pods-Flippr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flippr.release.xcconfig"; sourceTree = "<group>"; };
+		2096853FCDE406F252D0C9C81D716FA9 /* TOMSMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOMSMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		26215555FFA24BA92605516DF79030F7 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		2846A9C57804971B8EE326D0F1639A14 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		2F3CCBBC8B2E5A53F9B25DDF10AD86FF /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		2F9EBDB02D18E83E52E14FDE8FCAD524 /* Pods-FlipprUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlipprUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FAE783F65AF5031742D65AC90DCBFD9 /* Pods-Flippr-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flippr-resources.sh"; sourceTree = "<group>"; };
+		3063FF75ECFA8DB09BA8FF812CE125B3 /* NSString+Morphing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Morphing.h"; path = "Classes/NSString+Morphing.h"; sourceTree = "<group>"; };
+		31163AD6766A8BE49D2B22B78B073144 /* Pods-FlipprTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlipprTests-resources.sh"; sourceTree = "<group>"; };
+		35799E52802D00BC78C3B38A17D1F403 /* Pods-Flippr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flippr.debug.xcconfig"; sourceTree = "<group>"; };
+		35DF7F1E885B4D0AF816DCBA99093044 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		3E3E64887507298DB813E1799577A35A /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		42F4ACF8C9959E2C052F488DE92E1FFD /* Pods-Flippr-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flippr-acknowledgements.plist"; sourceTree = "<group>"; };
+		44871DD489083F9F20A96D95F21A99B6 /* Pods-FlipprUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlipprUITests.modulemap"; sourceTree = "<group>"; };
+		45CB54865D0F2936C23858C54168D950 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		4B77A1D2705B2054544375027A1A49D7 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		525A4B6A3A7BC62A6A5B7A616A1C5941 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF675A168132FD52AED630F977FE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C8D2C916110D2187D60D031955D17CB /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		5E64FD3E81CE525C53606C33FAEB0380 /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		60722EAA28C0F1B179E02AF7A29D327C /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		610F0D7B792DA42F6D925B53ED146DA2 /* Pods-FlipprTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlipprTests-frameworks.sh"; sourceTree = "<group>"; };
+		63C7D67C88BAA64A713560661CC0EFEA /* Pods-FlipprUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlipprUITests-umbrella.h"; sourceTree = "<group>"; };
+		676FFB52CAAA0D9BFA43C6A3A743606A /* Pods-FlipprTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlipprTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		695D481BD38E70D64BFFE8E115D380F8 /* Pods_FlipprTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipprTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A62C45675B6FD1F46FFE3C13C55B5E7 /* Pods-Flippr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Flippr.modulemap"; sourceTree = "<group>"; };
+		6B2109335F7152C136BA97231CA66C50 /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		6D2DA8464B3397CC81181C76792B1E14 /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		6D6330D04A25952DBEDF3EACB32CF39D /* TOMSMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOMSMorphingLabel.xcconfig; sourceTree = "<group>"; };
+		6FAB02CD09AB81137465A0792B92242E /* Pods-Flippr-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flippr-frameworks.sh"; sourceTree = "<group>"; };
+		7B40A7CFB9382A85CAA66EDE8B8DFB6F /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801B2B802C7746E4EB74716573C9615C /* NSString+Morphing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Morphing.m"; path = "Classes/NSString+Morphing.m"; sourceTree = "<group>"; };
+		805E47FB6D28AFE70BF036C761FE0C77 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		8144139884C1F6B3DCA518911924FBAB /* TOMSMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOMSMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		88033EE9B01C200DD9459B54630E3300 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		9156D935D0F1F5478136A4933EF550C9 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D8B6048318E12FB3CC84A5DDE2C0429 /* TOMSMorphingLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOMSMorphingLabel.m; path = Classes/TOMSMorphingLabel.m; sourceTree = "<group>"; };
+		A05CC90E8CF236655C5037E357A15369 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		A117687B9B173BDB4DB85B236699EB89 /* Pods-FlipprTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlipprTests-dummy.m"; sourceTree = "<group>"; };
+		A5D75E8660202253487D68C3A65B5D2F /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		A7991898B4E9001FCB48CE4E37745A41 /* Pods_Flippr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flippr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB998484D7B39D38E89FB840D11BB6E6 /* Pods-FlipprUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlipprUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE0086E9DD11B41EFF5D004B02298B6D /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		B8DB740FF7F18E0C6450771E75865680 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		BC4BEC1273B728D1EA33BDE99F0FBB0C /* Pods_FlipprUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipprUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6A2AF77D54AA3A9B76F858E6197922 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD951CD9A739F2D99C2FCF50B3ECE86 /* Pods-FlipprUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlipprUITests-resources.sh"; sourceTree = "<group>"; };
+		C068957F8FB3C31EC1C4FCE1109B156E /* Pods-Flippr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flippr-dummy.m"; sourceTree = "<group>"; };
+		C084897A8B159EB55C94B2557702B567 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		CD6805067B5610641B195A434A28A9EC /* Pods-FlipprUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlipprUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D016D900F032C515A4DDF63FE71F1B76 /* Pods-FlipprTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlipprTests.release.xcconfig"; sourceTree = "<group>"; };
+		D439A6CE00399929F23A203D341DC99E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C283535075C74A8EEF272C625465F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69367D56B256C500C20F4623001C01B /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		D7EFDE39BFCD3A075A7504A24363423D /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		D96B72C9CAEE92E45C3223AB014AA082 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		DD613E8AB76E94A97CFD4178BB15DEE6 /* TOMSMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TOMSMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1B7C3EA61CE37EEBF85B889E20F8FD /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Canvas.modulemap; sourceTree = "<group>"; };
+		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E2A3A8E97555808A2A3749BA631F9437 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		E63254C202F3BD25590C3CAE6017C743 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1E660EF2B745AC7C0ED8B23BB7AB07C /* Pods-FlipprUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlipprUITests-dummy.m"; sourceTree = "<group>"; };
+		F3462272F91B07877C7A835DC02A38B3 /* Pods-FlipprUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlipprUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3A05B2254172FC25A90FB0800DF8A1B /* Pods-FlipprTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlipprTests-umbrella.h"; sourceTree = "<group>"; };
+		F7F2EED46094A70C213785D50362FDEE /* TOMSMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOMSMorphingLabel.h; path = Classes/TOMSMorphingLabel.h; sourceTree = "<group>"; };
+		F926EB84482049567B75149F54D5B418 /* Pods-FlipprTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlipprTests.modulemap"; sourceTree = "<group>"; };
+		FEC351F358B267F4202796053461B93C /* Pods-Flippr-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flippr-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0231A03B1182CBFD5D46965CF858F2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1CA6F2EEE2892FEEEFC7469E69A08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DCBE4A03A71A413BA4BD49B17C6A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10467BF88C7DA033954B7CC598CA3B1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94782050C710E2D167899CF1CD7C0B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0722B6BB447159EB41C774D6EA9B1C20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7278FA50ED9CAE5FDBB439E151EB49C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F8E671511029C9BAEE6DF4FBCCCA21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA23D4A06ACE11BF9A43711D4934BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8177C9C855257D6F67D3FD2FA4CBB6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EED714ECC9E02879A4A5995EF2E4AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B40A7CFB9382A85CAA66EDE8B8DFB6F /* Canvas.framework */,
+				A7991898B4E9001FCB48CE4E37745A41 /* Pods_Flippr.framework */,
+				695D481BD38E70D64BFFE8E115D380F8 /* Pods_FlipprTests.framework */,
+				BC4BEC1273B728D1EA33BDE99F0FBB0C /* Pods_FlipprUITests.framework */,
+				DD613E8AB76E94A97CFD4178BB15DEE6 /* TOMSMorphingLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9260013FA223D81B907D9285F6EA1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AF3149F224936E7983AE6CBD443B703 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF122B40FFA5755506EDFA11069224C0 /* Canvas */,
+				6A7A440138E437B45F79560E6F078D7F /* TOMSMorphingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3007429816B01528FD75ED6358129880 /* Pods-Flippr */ = {
+			isa = PBXGroup;
+			children = (
+				E63254C202F3BD25590C3CAE6017C743 /* Info.plist */,
+				6A62C45675B6FD1F46FFE3C13C55B5E7 /* Pods-Flippr.modulemap */,
+				FEC351F358B267F4202796053461B93C /* Pods-Flippr-acknowledgements.markdown */,
+				42F4ACF8C9959E2C052F488DE92E1FFD /* Pods-Flippr-acknowledgements.plist */,
+				C068957F8FB3C31EC1C4FCE1109B156E /* Pods-Flippr-dummy.m */,
+				6FAB02CD09AB81137465A0792B92242E /* Pods-Flippr-frameworks.sh */,
+				2FAE783F65AF5031742D65AC90DCBFD9 /* Pods-Flippr-resources.sh */,
+				113406BEEF96867376756F4F3FC0D901 /* Pods-Flippr-umbrella.h */,
+				35799E52802D00BC78C3B38A17D1F403 /* Pods-Flippr.debug.xcconfig */,
+				1948C63387B8CA2CAE278B4438D59C3E /* Pods-Flippr.release.xcconfig */,
+			);
+			name = "Pods-Flippr";
+			path = "Target Support Files/Pods-Flippr";
+			sourceTree = "<group>";
+		};
+		358A07970DA8B9AB10ECA2019D554DD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B7C3EA61CE37EEBF85B889E20F8FD /* Canvas.modulemap */,
+				5E64FD3E81CE525C53606C33FAEB0380 /* Canvas.xcconfig */,
+				136BD733F9D7CFF8B8E05C4AB3EBDC91 /* Canvas-dummy.m */,
+				2F3CCBBC8B2E5A53F9B25DDF10AD86FF /* Canvas-prefix.pch */,
+				6D2DA8464B3397CC81181C76792B1E14 /* Canvas-umbrella.h */,
+				BE6A2AF77D54AA3A9B76F858E6197922 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Canvas";
+			sourceTree = "<group>";
+		};
+		46AE5F68B0C59F480E9F6A4840D55A63 /* Pods-FlipprTests */ = {
+			isa = PBXGroup;
+			children = (
+				D439A6CE00399929F23A203D341DC99E /* Info.plist */,
+				F926EB84482049567B75149F54D5B418 /* Pods-FlipprTests.modulemap */,
+				676FFB52CAAA0D9BFA43C6A3A743606A /* Pods-FlipprTests-acknowledgements.markdown */,
+				0721CAD47031FFFF54059F070E775E6C /* Pods-FlipprTests-acknowledgements.plist */,
+				A117687B9B173BDB4DB85B236699EB89 /* Pods-FlipprTests-dummy.m */,
+				610F0D7B792DA42F6D925B53ED146DA2 /* Pods-FlipprTests-frameworks.sh */,
+				31163AD6766A8BE49D2B22B78B073144 /* Pods-FlipprTests-resources.sh */,
+				F3A05B2254172FC25A90FB0800DF8A1B /* Pods-FlipprTests-umbrella.h */,
+				0025310F177527FA0AFD3A219B16310C /* Pods-FlipprTests.debug.xcconfig */,
+				D016D900F032C515A4DDF63FE71F1B76 /* Pods-FlipprTests.release.xcconfig */,
+			);
+			name = "Pods-FlipprTests";
+			path = "Target Support Files/Pods-FlipprTests";
+			sourceTree = "<group>";
+		};
+		47943EBE52A5F66BDAD4A4AD987CD00E /* Pods-FlipprUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C283535075C74A8EEF272C625465F0 /* Info.plist */,
+				44871DD489083F9F20A96D95F21A99B6 /* Pods-FlipprUITests.modulemap */,
+				CD6805067B5610641B195A434A28A9EC /* Pods-FlipprUITests-acknowledgements.markdown */,
+				F3462272F91B07877C7A835DC02A38B3 /* Pods-FlipprUITests-acknowledgements.plist */,
+				F1E660EF2B745AC7C0ED8B23BB7AB07C /* Pods-FlipprUITests-dummy.m */,
+				1656AC642EED3283EC12690E09D535CD /* Pods-FlipprUITests-frameworks.sh */,
+				BFD951CD9A739F2D99C2FCF50B3ECE86 /* Pods-FlipprUITests-resources.sh */,
+				63C7D67C88BAA64A713560661CC0EFEA /* Pods-FlipprUITests-umbrella.h */,
+				2F9EBDB02D18E83E52E14FDE8FCAD524 /* Pods-FlipprUITests.debug.xcconfig */,
+				AB998484D7B39D38E89FB840D11BB6E6 /* Pods-FlipprUITests.release.xcconfig */,
+			);
+			name = "Pods-FlipprUITests";
+			path = "Target Support Files/Pods-FlipprUITests";
+			sourceTree = "<group>";
+		};
+		6A7A440138E437B45F79560E6F078D7F /* TOMSMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				3063FF75ECFA8DB09BA8FF812CE125B3 /* NSString+Morphing.h */,
+				801B2B802C7746E4EB74716573C9615C /* NSString+Morphing.m */,
+				F7F2EED46094A70C213785D50362FDEE /* TOMSMorphingLabel.h */,
+				9D8B6048318E12FB3CC84A5DDE2C0429 /* TOMSMorphingLabel.m */,
+				E65EBE869D7A983B98B7604ED04D7609 /* Support Files */,
+			);
+			path = TOMSMorphingLabel;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				2AF3149F224936E7983AE6CBD443B703 /* Pods */,
+				0EED714ECC9E02879A4A5995EF2E4AEE /* Products */,
+				B08E03106686B484ED9360471C624778 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B08E03106686B484ED9360471C624778 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3007429816B01528FD75ED6358129880 /* Pods-Flippr */,
+				46AE5F68B0C59F480E9F6A4840D55A63 /* Pods-FlipprTests */,
+				47943EBE52A5F66BDAD4A4AD987CD00E /* Pods-FlipprUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5E9260013FA223D81B907D9285F6EA1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC32878090C4B2B93381956161EC0930 /* Foundation.framework */,
+				E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */,
+				5BF675A168132FD52AED630F977FE906 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E65EBE869D7A983B98B7604ED04D7609 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				525A4B6A3A7BC62A6A5B7A616A1C5941 /* Info.plist */,
+				0C88ABF01F9E26EB43E32AE9D00E5120 /* TOMSMorphingLabel.modulemap */,
+				6D6330D04A25952DBEDF3EACB32CF39D /* TOMSMorphingLabel.xcconfig */,
+				2096853FCDE406F252D0C9C81D716FA9 /* TOMSMorphingLabel-dummy.m */,
+				8144139884C1F6B3DCA518911924FBAB /* TOMSMorphingLabel-prefix.pch */,
+				1445014388392188AA352AEEEC8C8A05 /* TOMSMorphingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TOMSMorphingLabel";
+			sourceTree = "<group>";
+		};
+		FF122B40FFA5755506EDFA11069224C0 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				9156D935D0F1F5478136A4933EF550C9 /* Canvas.h */,
+				6B2109335F7152C136BA97231CA66C50 /* CSAnimation.h */,
+				E2A3A8E97555808A2A3749BA631F9437 /* CSAnimation.m */,
+				3E3E64887507298DB813E1799577A35A /* CSAnimationView.h */,
+				D69367D56B256C500C20F4623001C01B /* CSAnimationView.m */,
+				D96B72C9CAEE92E45C3223AB014AA082 /* CSBlurView.h */,
+				88033EE9B01C200DD9459B54630E3300 /* CSBlurView.m */,
+				45CB54865D0F2936C23858C54168D950 /* CSNavigationController.h */,
+				D7EFDE39BFCD3A075A7504A24363423D /* CSNavigationController.m */,
+				A05CC90E8CF236655C5037E357A15369 /* UIButton+TCCustomFont.h */,
+				A5D75E8660202253487D68C3A65B5D2F /* UIButton+TCCustomFont.m */,
+				B8DB740FF7F18E0C6450771E75865680 /* UILabel+TCCustomFont.h */,
+				4B77A1D2705B2054544375027A1A49D7 /* UILabel+TCCustomFont.m */,
+				2846A9C57804971B8EE326D0F1639A14 /* UINavigationBar+TCCustomFont.h */,
+				C084897A8B159EB55C94B2557702B567 /* UINavigationBar+TCCustomFont.m */,
+				26215555FFA24BA92605516DF79030F7 /* UITextField+PlaceholderColor.h */,
+				AE0086E9DD11B41EFF5D004B02298B6D /* UITextField+PlaceholderColor.m */,
+				60722EAA28C0F1B179E02AF7A29D327C /* UITextField+TCCustomFont.h */,
+				35DF7F1E885B4D0AF816DCBA99093044 /* UITextField+TCCustomFont.m */,
+				805E47FB6D28AFE70BF036C761FE0C77 /* UITextView+TCCustomFont.h */,
+				5C8D2C916110D2187D60D031955D17CB /* UITextView+TCCustomFont.m */,
+				358A07970DA8B9AB10ECA2019D554DD9 /* Support Files */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		404B646EB7D2633612ADE7B2CE8CCD2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F2CE7A97EE48D297AE373F9761F488 /* Pods-FlipprTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F11A4C751EF1BB0A053EBFA82B623B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218D192A25089E6AE8C1A6CD2E6723A0 /* Pods-FlipprUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E726B31B30A3EFBD8C5F5839CF291 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */,
+				040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */,
+				0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */,
+				F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */,
+				4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */,
+				B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */,
+				E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */,
+				9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */,
+				DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */,
+				CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */,
+				54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */,
+				D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0EFFC7E58447CBA9AFA940E1279CA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1CB2FB182E2953858747ED63E13140 /* Pods-Flippr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD06F4559B12C5668D27F20249B4137B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E47F086F2EE3087582E4B945D66D1DD /* NSString+Morphing.h in Headers */,
+				9F7D485B6E442D75FEE643E273937021 /* TOMSMorphingLabel-umbrella.h in Headers */,
+				47DA79AAAB8068F0D02DCBE1034B36EB /* TOMSMorphingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01913C178F1CA98F569A8289C11DBE9A /* Pods-FlipprUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D011EF12D12BC2156F785D068698320A /* Build configuration list for PBXNativeTarget "Pods-FlipprUITests" */;
+			buildPhases = (
+				FA72E7CBFBC37598E8226FAFB324FA42 /* Sources */,
+				E7278FA50ED9CAE5FDBB439E151EB49C /* Frameworks */,
+				6F11A4C751EF1BB0A053EBFA82B623B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlipprUITests";
+			productName = "Pods-FlipprUITests";
+			productReference = BC4BEC1273B728D1EA33BDE99F0FBB0C /* Pods_FlipprUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58160C26B17AE9FF8BC0C5CF6B88D491 /* TOMSMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31917B07B147802EEFAB27CDB09067B0 /* Build configuration list for PBXNativeTarget "TOMSMorphingLabel" */;
+			buildPhases = (
+				2EBAC36DDF7CD41CE69E756860A6BE3D /* Sources */,
+				94782050C710E2D167899CF1CD7C0B7B /* Frameworks */,
+				CD06F4559B12C5668D27F20249B4137B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOMSMorphingLabel;
+			productName = TOMSMorphingLabel;
+			productReference = DD613E8AB76E94A97CFD4178BB15DEE6 /* TOMSMorphingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79666092422065545213FCC6AE5BE10B /* Pods-FlipprTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B1A3D557AC93B639BA5C425E807CD8 /* Build configuration list for PBXNativeTarget "Pods-FlipprTests" */;
+			buildPhases = (
+				1104AA1EECB5399B808F6EC38CE0F2FD /* Sources */,
+				0231A03B1182CBFD5D46965CF858F2A0 /* Frameworks */,
+				404B646EB7D2633612ADE7B2CE8CCD2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlipprTests";
+			productName = "Pods-FlipprTests";
+			productReference = 695D481BD38E70D64BFFE8E115D380F8 /* Pods_FlipprTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90CF33C3D9B9177B7C0496241AD5E151 /* Pods-Flippr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C653F50BAC2C3F44B8AF717F46EE94E /* Build configuration list for PBXNativeTarget "Pods-Flippr" */;
+			buildPhases = (
+				ECC5DD7EE81F530E79F3CD6424302117 /* Sources */,
+				70DCBE4A03A71A413BA4BD49B17C6A19 /* Frameworks */,
+				AE0EFFC7E58447CBA9AFA940E1279CA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D736AB488BC9C700C5678F22D212FFB /* PBXTargetDependency */,
+				FBFDA36760E160C16C75C1F026350192 /* PBXTargetDependency */,
+			);
+			name = "Pods-Flippr";
+			productName = "Pods-Flippr";
+			productReference = A7991898B4E9001FCB48CE4E37745A41 /* Pods_Flippr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596FCB5904178E733A3C78618222D49A /* Build configuration list for PBXNativeTarget "Canvas" */;
+			buildPhases = (
+				B24125255171B4E465A02155C472B6AF /* Sources */,
+				EEA23D4A06ACE11BF9A43711D4934BB5 /* Frameworks */,
+				840E726B31B30A3EFBD8C5F5839CF291 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvas;
+			productName = Canvas;
+			productReference = 7B40A7CFB9382A85CAA66EDE8B8DFB6F /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0EED714ECC9E02879A4A5995EF2E4AEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */,
+				90CF33C3D9B9177B7C0496241AD5E151 /* Pods-Flippr */,
+				79666092422065545213FCC6AE5BE10B /* Pods-FlipprTests */,
+				01913C178F1CA98F569A8289C11DBE9A /* Pods-FlipprUITests */,
+				58160C26B17AE9FF8BC0C5CF6B88D491 /* TOMSMorphingLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1104AA1EECB5399B808F6EC38CE0F2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830F80D3045BA13A83CE76DB573D38E /* Pods-FlipprTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBAC36DDF7CD41CE69E756860A6BE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B35D18A5D3837AAA7322D6F85CC8026 /* NSString+Morphing.m in Sources */,
+				AD4ADAB7D3961BB881E16BE6F548D169 /* TOMSMorphingLabel-dummy.m in Sources */,
+				E9A81DDC8A94A7191D96CD764494596D /* TOMSMorphingLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24125255171B4E465A02155C472B6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */,
+				D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */,
+				3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */,
+				B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */,
+				6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */,
+				5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */,
+				BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */,
+				146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */,
+				1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */,
+				722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */,
+				3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC5DD7EE81F530E79F3CD6424302117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586124C098D1F928D4AEAC4F1CA0F373 /* Pods-Flippr-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA72E7CBFBC37598E8226FAFB324FA42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C1D779FDCD10171860EEBAC28B29E1 /* Pods-FlipprUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D736AB488BC9C700C5678F22D212FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Canvas;
+			target = F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */;
+			targetProxy = 7BFB0664DCF76FD9C295F8C4110528C5 /* PBXContainerItemProxy */;
+		};
+		FBFDA36760E160C16C75C1F026350192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOMSMorphingLabel;
+			target = 58160C26B17AE9FF8BC0C5CF6B88D491 /* TOMSMorphingLabel */;
+			targetProxy = A330A7D6EA6919687ACF5ED962B823A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		16B644F954F23BDF385B4F370221211F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D016D900F032C515A4DDF63FE71F1B76 /* Pods-FlipprTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlipprTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlipprTests/Pods-FlipprTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlipprTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18C8C998AA53AFCD3CD1E398F504EEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35799E52802D00BC78C3B38A17D1F403 /* Pods-Flippr.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Flippr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flippr/Pods-Flippr.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Flippr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9DD726FFC8DE27377DC0392439C802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1948C63387B8CA2CAE278B4438D59C3E /* Pods-Flippr.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Flippr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flippr/Pods-Flippr.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Flippr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40FE4ED3B9AB65496CA00FF2A49FCF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0025310F177527FA0AFD3A219B16310C /* Pods-FlipprTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlipprTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlipprTests/Pods-FlipprTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlipprTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		548EF2C446E143F445F31FC413BCDE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB998484D7B39D38E89FB840D11BB6E6 /* Pods-FlipprUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlipprUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlipprUITests/Pods-FlipprUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlipprUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A8173FF6D49E5A3EFD67A2C2C6130E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E64FD3E81CE525C53606C33FAEB0380 /* Canvas.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA955A643E4178BEC1993B46B5434F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6330D04A25952DBEDF3EACB32CF39D /* TOMSMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOMSMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TOMSMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2EF592715E63ABE64F4AF60D0457BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9EBDB02D18E83E52E14FDE8FCAD524 /* Pods-FlipprUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlipprUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlipprUITests/Pods-FlipprUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlipprUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7B6F108C89AD1CB0DA28A0E294631D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E64FD3E81CE525C53606C33FAEB0380 /* Canvas.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1E9829F031F0695E073AEFEF5BE0BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6330D04A25952DBEDF3EACB32CF39D /* TOMSMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOMSMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOMSMorphingLabel/TOMSMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TOMSMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B1A3D557AC93B639BA5C425E807CD8 /* Build configuration list for PBXNativeTarget "Pods-FlipprTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FE4ED3B9AB65496CA00FF2A49FCF26 /* Debug */,
+				16B644F954F23BDF385B4F370221211F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31917B07B147802EEFAB27CDB09067B0 /* Build configuration list for PBXNativeTarget "TOMSMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA955A643E4178BEC1993B46B5434F16 /* Debug */,
+				D1E9829F031F0695E073AEFEF5BE0BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596FCB5904178E733A3C78618222D49A /* Build configuration list for PBXNativeTarget "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8173FF6D49E5A3EFD67A2C2C6130E5 /* Debug */,
+				C7B6F108C89AD1CB0DA28A0E294631D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C653F50BAC2C3F44B8AF717F46EE94E /* Build configuration list for PBXNativeTarget "Pods-Flippr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C8C998AA53AFCD3CD1E398F504EEF1 /* Debug */,
+				2B9DD726FFC8DE27377DC0392439C802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D011EF12D12BC2156F785D068698320A /* Build configuration list for PBXNativeTarget "Pods-FlipprUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EF592715E63ABE64F4AF60D0457BAE /* Debug */,
+				548EF2C446E143F445F31FC413BCDE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

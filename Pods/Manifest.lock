@@ -1,0 +1,18 @@
+PODS:
+  - Canvas (0.1.2)
+  - LTMorphingLabel (0.4.0)
+  - TOMSMorphingLabel (0.5.1)
+
+DEPENDENCIES:
+  - Canvas (~> 0.1.2)
+  - LTMorphingLabel
+  - TOMSMorphingLabel (~> 0.5)
+
+SPEC CHECKSUMS:
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  LTMorphingLabel: d9a85f16ac306f0e07321d6819964deb2dc69638
+  TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
+
+PODFILE CHECKSUM: 70b087f1969ebcf69d8bfa3c52fc3cb057527b7d
+
+COCOAPODS: 1.2.0

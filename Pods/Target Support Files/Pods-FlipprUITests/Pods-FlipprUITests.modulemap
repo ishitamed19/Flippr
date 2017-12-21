@@ -1,0 +1,6 @@
+framework module Pods_FlipprUITests {
+  umbrella header "Pods-FlipprUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

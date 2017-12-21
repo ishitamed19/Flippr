@@ -20,6 +20,34 @@
                ReferencedContainer = "container:Flippr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "58E21F701E6DCA6E00A282F9"
+               BuildableName = "FlipprTests.xctest"
+               BlueprintName = "FlipprTests"
+               ReferencedContainer = "container:Flippr.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "58E21F7B1E6DCA6E00A282F9"
+               BuildableName = "FlipprUITests.xctest"
+               BlueprintName = "FlipprUITests"
+               ReferencedContainer = "container:Flippr.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,26 +56,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "58E21F701E6DCA6E00A282F9"
-               BuildableName = "FlipprTests.xctest"
-               BlueprintName = "FlipprTests"
-               ReferencedContainer = "container:Flippr.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "58E21F7B1E6DCA6E00A282F9"
-               BuildableName = "FlipprUITests.xctest"
-               BlueprintName = "FlipprUITests"
-               ReferencedContainer = "container:Flippr.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

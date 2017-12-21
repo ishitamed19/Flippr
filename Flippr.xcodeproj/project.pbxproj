@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7C3590E7F059DB5D7A2592 /* Pods_Flippr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EEF14186528F085DEB10CA /* Pods_Flippr.framework */; };
+		588264871E98A2A900B69097 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588264851E98A2A900B69097 /* Fabric.framework */; };
+		588264881E98A2A900B69097 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588264861E98A2A900B69097 /* Crashlytics.framework */; };
+		589BBD251E9795BB006A143D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589BBD241E9795BB006A143D /* Assets.xcassets */; };
+		58C71C521E97489D001EF8B6 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C71C511E97489D001EF8B6 /* DiceViewController.swift */; };
+		58C71C541E9748AB001EF8B6 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C71C531E9748AB001EF8B6 /* RandomViewController.swift */; };
+		58C71C561E974A94001EF8B6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C71C551E974A94001EF8B6 /* MasterViewController.swift */; };
 		58E21F611E6DCA6E00A282F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E21F601E6DCA6E00A282F9 /* AppDelegate.swift */; };
 		58E21F631E6DCA6E00A282F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E21F621E6DCA6E00A282F9 /* ViewController.swift */; };
 		58E21F661E6DCA6E00A282F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E21F641E6DCA6E00A282F9 /* Main.storyboard */; };
-		58E21F681E6DCA6E00A282F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E21F671E6DCA6E00A282F9 /* Assets.xcassets */; };
 		58E21F6B1E6DCA6E00A282F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E21F691E6DCA6E00A282F9 /* LaunchScreen.storyboard */; };
 		58E21F761E6DCA6E00A282F9 /* FlipprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E21F751E6DCA6E00A282F9 /* FlipprTests.swift */; };
 		58E21F811E6DCA6E00A282F9 /* FlipprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E21F801E6DCA6E00A282F9 /* FlipprUITests.swift */; };
+		852C5B939C09FD8FA833CB86 /* Pods_FlipprUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC8A05B2B3B0A89E71C0DFF /* Pods_FlipprUITests.framework */; };
+		D51B58BDC050027AF776A6EB /* Pods_FlipprTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1D273152AD4265BD7CA9E /* Pods_FlipprTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,12 +41,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		431468DB1F32F0CF00AEEB3D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0ACB93E49B7A27DD7F47FE6B /* Pods-Flippr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flippr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flippr/Pods-Flippr.debug.xcconfig"; sourceTree = "<group>"; };
+		17006012629A460514EA5CAF /* Pods-Flippr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flippr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flippr/Pods-Flippr.release.xcconfig"; sourceTree = "<group>"; };
+		1CF1D273152AD4265BD7CA9E /* Pods_FlipprTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipprTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345271CB1BA9594A95266EF6 /* Pods-FlipprTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipprTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipprTests/Pods-FlipprTests.release.xcconfig"; sourceTree = "<group>"; };
+		581B562E1E6E7DDC00845B53 /* TOMSMorphingLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOMSMorphingLabel.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Flippr-fzjnjzrhoxxnmrdmeacjfrkcbrjn/Build/Products/Debug-iphonesimulator/TOMSMorphingLabel/TOMSMorphingLabel.framework"; sourceTree = "<group>"; };
+		588264851E98A2A900B69097 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		588264861E98A2A900B69097 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		589BBD241E9795BB006A143D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58C71C511E97489D001EF8B6 /* DiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
+		58C71C531E9748AB001EF8B6 /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		58C71C551E974A94001EF8B6 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		58E21F5D1E6DCA6E00A282F9 /* Flippr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flippr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E21F601E6DCA6E00A282F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58E21F621E6DCA6E00A282F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58E21F651E6DCA6E00A282F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		58E21F671E6DCA6E00A282F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E21F6A1E6DCA6E00A282F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E21F6C1E6DCA6E00A282F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E21F711E6DCA6E00A282F9 /* FlipprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +78,11 @@
 		58E21F7C1E6DCA6E00A282F9 /* FlipprUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipprUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E21F801E6DCA6E00A282F9 /* FlipprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipprUITests.swift; sourceTree = "<group>"; };
 		58E21F821E6DCA6E00A282F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB43AE90E3AAF5DA7BCF5E2 /* Pods-FlipprUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipprUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipprUITests/Pods-FlipprUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92E575F2830B2F66BA6C75B4 /* Pods-FlipprUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipprUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipprUITests/Pods-FlipprUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A45CFA7F0E15A83456CB27A4 /* Pods-FlipprTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipprTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipprTests/Pods-FlipprTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC8A05B2B3B0A89E71C0DFF /* Pods_FlipprUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipprUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3EEF14186528F085DEB10CA /* Pods_Flippr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flippr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7C3590E7F059DB5D7A2592 /* Pods_Flippr.framework in Frameworks */,
+				588264881E98A2A900B69097 /* Crashlytics.framework in Frameworks */,
+				588264871E98A2A900B69097 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51B58BDC050027AF776A6EB /* Pods_FlipprTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852C5B939C09FD8FA833CB86 /* Pods_FlipprUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +118,14 @@
 		58E21F541E6DCA6D00A282F9 = {
 			isa = PBXGroup;
 			children = (
+				588264851E98A2A900B69097 /* Fabric.framework */,
+				588264861E98A2A900B69097 /* Crashlytics.framework */,
 				58E21F5F1E6DCA6E00A282F9 /* Flippr */,
 				58E21F741E6DCA6E00A282F9 /* FlipprTests */,
 				58E21F7F1E6DCA6E00A282F9 /* FlipprUITests */,
 				58E21F5E1E6DCA6E00A282F9 /* Products */,
+				B2305AF378D3C615D55BEFC3 /* Pods */,
+				D0C68BC166235D1BC8C29068 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +145,10 @@
 				58E21F601E6DCA6E00A282F9 /* AppDelegate.swift */,
 				58E21F621E6DCA6E00A282F9 /* ViewController.swift */,
 				58E21F641E6DCA6E00A282F9 /* Main.storyboard */,
-				58E21F671E6DCA6E00A282F9 /* Assets.xcassets */,
+				58C71C551E974A94001EF8B6 /* MasterViewController.swift */,
+				589BBD241E9795BB006A143D /* Assets.xcassets */,
+				58C71C511E97489D001EF8B6 /* DiceViewController.swift */,
+				58C71C531E9748AB001EF8B6 /* RandomViewController.swift */,
 				58E21F691E6DCA6E00A282F9 /* LaunchScreen.storyboard */,
 				58E21F6C1E6DCA6E00A282F9 /* Info.plist */,
 			);
@@ -125,6 +173,30 @@
 			path = FlipprUITests;
 			sourceTree = "<group>";
 		};
+		B2305AF378D3C615D55BEFC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ACB93E49B7A27DD7F47FE6B /* Pods-Flippr.debug.xcconfig */,
+				17006012629A460514EA5CAF /* Pods-Flippr.release.xcconfig */,
+				A45CFA7F0E15A83456CB27A4 /* Pods-FlipprTests.debug.xcconfig */,
+				345271CB1BA9594A95266EF6 /* Pods-FlipprTests.release.xcconfig */,
+				92E575F2830B2F66BA6C75B4 /* Pods-FlipprUITests.debug.xcconfig */,
+				5AB43AE90E3AAF5DA7BCF5E2 /* Pods-FlipprUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0C68BC166235D1BC8C29068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				581B562E1E6E7DDC00845B53 /* TOMSMorphingLabel.framework */,
+				E3EEF14186528F085DEB10CA /* Pods_Flippr.framework */,
+				1CF1D273152AD4265BD7CA9E /* Pods_FlipprTests.framework */,
+				BAC8A05B2B3B0A89E71C0DFF /* Pods_FlipprUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +204,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58E21F851E6DCA6E00A282F9 /* Build configuration list for PBXNativeTarget "Flippr" */;
 			buildPhases = (
+				56EE362EECC0451DF349570E /* [CP] Check Pods Manifest.lock */,
 				58E21F591E6DCA6D00A282F9 /* Sources */,
 				58E21F5A1E6DCA6D00A282F9 /* Frameworks */,
 				58E21F5B1E6DCA6D00A282F9 /* Resources */,
+				DF680BD93A14F40FDC1A38AD /* [CP] Embed Pods Frameworks */,
+				A3CBA247930AF4BF30110FAD /* [CP] Copy Pods Resources */,
+				588264841E98A28500B69097 /* ShellScript */,
+				431468DB1F32F0CF00AEEB3D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -149,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58E21F881E6DCA6E00A282F9 /* Build configuration list for PBXNativeTarget "FlipprTests" */;
 			buildPhases = (
+				2C0F7D5F80FAA7CE836D4687 /* [CP] Check Pods Manifest.lock */,
 				58E21F6D1E6DCA6E00A282F9 /* Sources */,
 				58E21F6E1E6DCA6E00A282F9 /* Frameworks */,
 				58E21F6F1E6DCA6E00A282F9 /* Resources */,
+				5F50456240E52ADFE6466A39 /* [CP] Embed Pods Frameworks */,
+				EFBF0FA144420F3DF79859CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58E21F8B1E6DCA6E00A282F9 /* Build configuration list for PBXNativeTarget "FlipprUITests" */;
 			buildPhases = (
+				9DE5B7E8A59A887212CBBAED /* [CP] Check Pods Manifest.lock */,
 				58E21F781E6DCA6E00A282F9 /* Sources */,
 				58E21F791E6DCA6E00A282F9 /* Frameworks */,
 				58E21F7A1E6DCA6E00A282F9 /* Resources */,
+				88BB465057F38A2DB766AD89 /* [CP] Embed Pods Frameworks */,
+				2E157B51D53464AA4A6A7AEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,13 +270,14 @@
 		58E21F551E6DCA6D00A282F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Sudhir Mediratta";
 				TargetAttributes = {
 					58E21F5C1E6DCA6D00A282F9 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = X3LF452M9Y;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					58E21F701E6DCA6E00A282F9 = {
@@ -236,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58E21F6B1E6DCA6E00A282F9 /* LaunchScreen.storyboard in Resources */,
-				58E21F681E6DCA6E00A282F9 /* Assets.xcassets in Resources */,
+				589BBD251E9795BB006A143D /* Assets.xcassets in Resources */,
 				58E21F661E6DCA6E00A282F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +341,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C0F7D5F80FAA7CE836D4687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E157B51D53464AA4A6A7AEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipprUITests/Pods-FlipprUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56EE362EECC0451DF349570E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		588264841E98A28500B69097 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run c25d26099dbe8b4adc26f3608d7948b04960471b 5055d0ca1da43cb5720e4a5eb00287106db19c20df93dc2a90c7932931a3d1e4";
+		};
+		5F50456240E52ADFE6466A39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipprTests/Pods-FlipprTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88BB465057F38A2DB766AD89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipprUITests/Pods-FlipprUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE5B7E8A59A887212CBBAED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CBA247930AF4BF30110FAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flippr/Pods-Flippr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF680BD93A14F40FDC1A38AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flippr/Pods-Flippr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBF0FA144420F3DF79859CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipprTests/Pods-FlipprTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58E21F591E6DCA6D00A282F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C71C561E974A94001EF8B6 /* MasterViewController.swift in Sources */,
 				58E21F631E6DCA6E00A282F9 /* ViewController.swift in Sources */,
+				58C71C541E9748AB001EF8B6 /* RandomViewController.swift in Sources */,
+				58C71C521E97489D001EF8B6 /* DiceViewController.swift in Sources */,
 				58E21F611E6DCA6E00A282F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +596,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -411,32 +649,49 @@
 		};
 		58E21F861E6DCA6E00A282F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACB93E49B7A27DD7F47FE6B /* Pods-Flippr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X3LF452M9Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Flippr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sudhirmediratta.Flippr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		58E21F871E6DCA6E00A282F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17006012629A460514EA5CAF /* Pods-Flippr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X3LF452M9Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Flippr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sudhirmediratta.Flippr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		58E21F891E6DCA6E00A282F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45CFA7F0E15A83456CB27A4 /* Pods-FlipprTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +707,7 @@
 		};
 		58E21F8A1E6DCA6E00A282F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345271CB1BA9594A95266EF6 /* Pods-FlipprTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +723,7 @@
 		};
 		58E21F8C1E6DCA6E00A282F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E575F2830B2F66BA6C75B4 /* Pods-FlipprUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = X3LF452M9Y;
@@ -481,6 +738,7 @@
 		};
 		58E21F8D1E6DCA6E00A282F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB43AE90E3AAF5DA7BCF5E2 /* Pods-FlipprUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = X3LF452M9Y;
@@ -512,6 +770,7 @@
 				58E21F871E6DCA6E00A282F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58E21F881E6DCA6E00A282F9 /* Build configuration list for PBXNativeTarget "FlipprTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +779,7 @@
 				58E21F8A1E6DCA6E00A282F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58E21F8B1E6DCA6E00A282F9 /* Build configuration list for PBXNativeTarget "FlipprUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +788,7 @@
 				58E21F8D1E6DCA6E00A282F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
